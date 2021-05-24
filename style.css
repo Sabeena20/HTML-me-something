@@ -1,0 +1,27 @@
+img {
+    max-width: 80%;
+    height: auto;
+  }
+  #main-image img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+      }
+      header{
+          text-align: center;
+      }
+      body{
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1em;
+          background-color: rgb(180, 180, 180);
+          opacity: 1;
+          background-image: linear-gradient(grey,white) ;
+          background-size: cover;
+      }
+      .image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
