@@ -16,7 +16,7 @@
                   margin:0px;
                   color:rgb(255, 0, 0);
                   border: 4px sienna solid;
-                  background-image:url("/images/header.jpg");
+                  background-image:url("images/header.jpg");
               }
               body{
                 box-sizing: border-box;
