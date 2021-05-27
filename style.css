@@ -1,27 +1,62 @@
-img {
-    max-width: 80%;
-    height: auto;
-  }
-  #main-image img {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 100%;
+          section{
+            display: block;
+          }
+          main{
+            margin:5em;
+            /* width: 100%; */
+          padding: 5px;
+          box-sizing: border-box;
       }
       header{
-          text-align: center;
-      }
-      body{
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-          font-size: 1em;
-          background-color: rgb(180, 180, 180);
-          opacity: 1;
-          background-image: linear-gradient(grey,white) ;
-          background-size: cover;
-      }
-      .image{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
+                text-align: center;
+                font-family: 'Merriweather',serif;
+                font-size: 20pt;
+                height: auto;
+                padding: 20px;
+                margin:0px;
+                color:fuchsia;
+                border: 4px sienna solid;
+                background-image:url("/images/header.jpg");
+            }
+            body{
+              box-sizing: border-box;
+              font-family:'Raleway',sans-serif;
+              font-size: 11pt;
+              font-weight: 400;
+              width:100vw;
+              height: 100vh;
+              background-image: linear-gradient(
+                140deg, #EADEDB 20%, #BC70A4 75%, #BFD641 50%); 
+              
+            }
+            p{
+              text-align:justify;
+              margin-top:1em ;
+              margin-bottom: 1em;
+            }
+            .border{
+              border: 2px sienna solid;
+              padding: 0px;
+            }
+            .right{
+              float:right;
+              margin-left: 20px;
+            }
+            img{
+              width: 250px;
+              margin:10px 0px;
+            }
+            .left{
+              float: left;
+              margin-right: 20px;
+            }
+            hr{
+              height: .4em;
+              background-color: sienna;
+              border:none;
+              margin: 20px 0px 0px;
+            }
+            
+            footer{
+              text-align:center;
+            }
